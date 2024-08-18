@@ -1,0 +1,304 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav_btn{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.nav_btn i{
+font-size: 1.5rem;
+color: #fff;
+}
+
+ .nav_btn .d-nona{
+ display: none;
+ }
+
+ .nav{
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  background-color:rgb(12, 114, 137) ;
+  margin-right: -500px;
+ }
+
+
+ .nav-ul{
+  font-size: 1rem;
+  color: #fff;
+  list-style: none;
+ }
+
+.nav-ul li{
+  margin: 20px;
+  padding: 10px;
+  transition: all 1s;
+}
+
+.nav-ul li:hover{
+  background-color:#fff;
+  color:rgb(12, 114, 137);
+}
+
+.open{
+  animation: open 1s forwards;
+}
+
+.close-nav{
+  animation: close-nav 1s forwards;
+}
+
+@keyframes open{
+  from{
+  margin-right: -500px;
+  }
+  to{
+margin-right: 0;
+  }
+}
+
+@keyframes close-nav{
+  from{
+  margin-right: 0px;
+  }
+  to{
+margin-right: -500;
+  }
+}
+
+
+
+
+
+
+
+
+.sec-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/pencil.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.h-p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+  /* animation*/
+  /* animation-name:iron;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes iron{
+  from{
+transform: translate(0px) rotate(0deg);
+  }
+  to{
+    transform: translate(100px) rotate(360deg);
+  }
+} */
+
+.h-p h1 {
+  margin: 10px;
+  font-size: 30px;
+}
+.h-p p {
+  font-size: 20px;
+}
+.h-p button {
+  margin: 20px 0;
+}
+.btn {
+  padding: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: rgba(0, 255, 255, 0.766);
+}
+.sec-2 {
+  width: 100%;
+  height: 50vh;
+}
+.btn-2 {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 30px;
+}
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 60vh;
+  background: rgb(12, 114, 137);
+  color: #fff;
+}
+
+.sec-3 h3 {
+  font-size: 1rem;
+}
+.sec-3 p {
+  font-size: 1rem;
+}
+.sec-3 i {
+  background: #fff;
+  border-radius: 40px;
+  padding: 1rem;
+  color: rgb(12, 114, 137);
+}
+.sec-3 span i {
+  padding: 0.5px;
+}
+.new-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+span {
+  color: rgb(255, 255, 0);
+}
+i {
+  color: #000;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.sec-4 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/pencil-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sec-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 1rem;
+}
+.sec-5 .img-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.sec-5 .img-3 div {
+  width: 600px;
+}
+.sec-5 .img-3 div:hover {
+  transform: scale(1.05);
+}
+.sec-5 .img-3 div img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+/* .img-3 .img-s:hover{
+    box-shadow: 5px 5px 0.5rem rgba(14, 13, 13, 0.3);
+}
+.img-s img{
+ width: 39rem;
+ margin-top: 50px;
+} */
+
+.sec-6 {
+  margin-top: 320px;
+  width: 100%;
+  height: 50vh;
+  background: rgb(12, 114, 137);
+  justify-content: center;
+  align-items: center;
+}
+.sec-6 h1 {
+  color: #fff;
+}
+.btn-new button {
+  margin: 30px 30px;
+  justify-content: space-between;
+}
+.btn-black {
+  background: #000;
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+.btn-fff {
+  background: #fff;
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+  color: #000;
+}
+.footer{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  font-size: 3rem;
+}
+.foot-list div i{
+  display: flex;
+  flex-direction: row; 
+}
+.foot-list i{
+    background:rgb(12, 114, 137) ;
+    padding: 20px;
+    border-radius: 40px;
+    color: #fff;
+  }
+  .last-p{
+    align-items: center;
+    justify-content: center;
+    display:flex
+  }
+
+  .last-p p{
+    margin-bottom: 30px;
+  }
+
+
